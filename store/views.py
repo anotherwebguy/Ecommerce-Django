@@ -22,7 +22,7 @@ def store(request):
             total_item_cart += item.quantity
 
 
-    product_categories = ProductCategories.objects.all()
+    product_categories = list(ProductCategories.objects.all())
 
     context = {
         'product_categories' : product_categories,
