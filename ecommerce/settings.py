@@ -33,7 +33,7 @@ SECRET_KEY = 'b_jk^-3-9x5@!xfc#ocq8^=9^2ie2-100uxr2hujt))a=&ni9u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ecommerce-sarvesh.herokuapp.com']
+ALLOWED_HOSTS = ['ecommerce-cc.herokuapp.com']
 
 
 # Application definition
